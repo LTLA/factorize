@@ -157,7 +157,7 @@ template&lt;typename Input_ , typename Code_ &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Vector of vectors containing the levels of the combined factor. Each inner vector corresponds to a variables in <code>inputs</code>, and all inner vectors have the same length. Corresponding entries of the inner vectors represent a level of the combined factor, in the form of a combination of values from the input variables, i.e., the first level is defined as <code>(output[0][0], output[1][0], ...)</code>, the second level is defined as <code>(output[0][1], output[1][1], ...)</code>, and so on. Each entry <code>output[i][j]</code> is guaranteed to be a value in <code>inputs[i]</code>. Combinations are guaranteed to be unique and lexicographically sorted (i.e., by the first variable, then the second, and so on). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of vectors containing the levels of the combined factor. Each inner vector corresponds to a variables in <code>inputs</code>, and all inner vectors have the same length. Corresponding entries of the inner vectors represent a level of the combined factor, in the form of a combination of values from the input variables, i.e., the first level is defined as <code>(output[0][0], output[1][0], ...)</code>, the second level is defined as <code>(output[0][1], output[1][1], ...)</code>, and so on. Each entry in <code>output[i]</code> is guaranteed to be a value in <code>inputs[i]</code>. Combinations are guaranteed to be unique and lexicographically sorted (i.e., by the value of the first variable, then the second, and so on). </dd></dl>
 
 </div>
 </div>

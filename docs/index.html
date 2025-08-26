@@ -117,7 +117,7 @@ $(function(){ initResizable(false); });
 <div class="line">std::vector&lt;char&gt; grouping2 { <span class="charliteral">&#39;A&#39;</span>, <span class="charliteral">&#39;B&#39;</span>, <span class="charliteral">&#39;C&#39;</span>, <span class="charliteral">&#39;C&#39;</span>, <span class="charliteral">&#39;B&#39;</span>, <span class="charliteral">&#39;A&#39;</span> };</div>
 <div class="line"> </div>
 <div class="line">std::vector&lt;int&gt; combined_codes(grouping1.size()); </div>
-<div class="line"><span class="keyword">auto</span> combined_levels = factorize::combine_factors(</div>
+<div class="line"><span class="keyword">auto</span> combined_levels = <a class="code hl_function" href="namespacefactorize.html#a18cfb52c8107a752fc47fccc09d278b0">factorize::combine_to_factor</a>(</div>
 <div class="line">    grouping1.size(), </div>
 <div class="line">    std::vector&lt;const int*&gt;{ grouping1.data(), grouping2.data() },</div>
 <div class="line">    combined_codes.data()</div>
@@ -125,6 +125,7 @@ $(function(){ initResizable(false); });
 <div class="line"> </div>
 <div class="line">grouping1[0] == combined_levels[0][combined_codes[0]]; <span class="comment">// true</span></div>
 <div class="line">grouping2[0] == combined_levels[1][combined_codes[0]]; <span class="comment">// true</span></div>
+<div class="ttc" id="anamespacefactorize_html_a18cfb52c8107a752fc47fccc09d278b0"><div class="ttname"><a href="namespacefactorize.html#a18cfb52c8107a752fc47fccc09d278b0">factorize::combine_to_factor</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; Input_ &gt; &gt; combine_to_factor(const std::size_t n, const std::vector&lt; const Input_ * &gt; &amp;inputs, Code_ *const codes)</div><div class="ttdef"><b>Definition</b> combine_to_factor.hpp:43</div></div>
 </div><!-- fragment --><p>Check out the <a href="https://ltla.github.io/factorize">reference documentation</a> for more details.</p>
 <h1>Building projects</h1>
 <h2>CMake with <code>FetchContent</code></h2>
