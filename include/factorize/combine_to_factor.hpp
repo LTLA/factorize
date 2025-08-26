@@ -35,10 +35,9 @@ namespace factorize {
  * Vector of vectors containing the levels of the combined factor. 
  * Each inner vector corresponds to a variables in `inputs`, and all inner vectors have the same length.
  * Corresponding entries of the inner vectors represent a level of the combined factor, in the form of a combination of values from the input variables,
- * i.e., the first level is defined as `(output[0][0], output[1][0], ...)`,
- * the second level is defined as `(output[0][1], output[1][1], ...)`, and so on.
- * Each entry `output[i][j]` is guaranteed to be a value in `inputs[i]`.
- * Combinations are guaranteed to be unique and lexicographically sorted (i.e., by the first variable, then the second, and so on).
+ * i.e., the first level is defined as `(output[0][0], output[1][0], ...)`, the second level is defined as `(output[0][1], output[1][1], ...)`, and so on.
+ * Each entry in `output[i]` is guaranteed to be a value in `inputs[i]`.
+ * Combinations are guaranteed to be unique and lexicographically sorted (i.e., by the value of the first variable, then the second, and so on).
  */
 template<typename Input_, typename Code_>
 std::vector<std::vector<Input_> > combine_to_factor(const std::size_t n, const std::vector<const Input_*>& inputs, Code_* const codes) {

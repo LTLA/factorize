@@ -33,7 +33,7 @@ std::vector<char> grouping1 { 'c', 'a', 'b', 'a', 'b', 'c' };
 std::vector<char> grouping2 { 'A', 'B', 'C', 'C', 'B', 'A' };
 
 std::vector<int> combined_codes(grouping1.size()); 
-auto combined_levels = factorize::combine_factors(
+auto combined_levels = factorize::combine_to_factor(
     grouping1.size(), 
     std::vector<const int*>{ grouping1.data(), grouping2.data() },
     combined_codes.data()
