@@ -1,0 +1,15 @@
+<map id="factorize/create_factor.hpp" name="factorize/create_factor.hpp">
+<area shape="rect" id="Node000001" title="Create a factor from a categorical variable." alt="" coords="217,5,392,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,116,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,34,117,77,116,72,262,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="140,79,197,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="283,34,206,74,204,69,280,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="221,79,295,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,33,276,67,272,64,295,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="319,79,383,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="314,30,337,64,333,67,310,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="408,79,559,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="336,29,440,70,438,75,334,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="583,79,652,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="361,29,568,76,567,81,360,34"/>
+</map>

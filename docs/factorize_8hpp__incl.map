@@ -1,0 +1,28 @@
+<map id="factorize/factorize.hpp" name="factorize/factorize.hpp">
+<area shape="rect" id="Node000001" title="Create factors from categorical variables." alt="" coords="244,5,391,31"/>
+<area shape="rect" id="Node000002" href="$create__factor_8hpp.html" title="Create a factor from a categorical variable." alt="" coords="201,153,322,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,33,289,80,270,139,265,137,284,78,308,30"/>
+<area shape="rect" id="Node000009" href="$combine__to__factor_8hpp.html" title="Combine categorical variables into a single factor." alt="" coords="299,79,451,105"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="329,30,358,65,354,68,325,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="362,226,473,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="289,176,378,217,376,222,287,181"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="497,226,554,252"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="308,176,483,223,481,228,306,181"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="578,226,652,252"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="323,175,563,223,562,228,322,181"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,226,70,252"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="224,181,85,225,84,220,223,176"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="94,226,245,252"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="248,181,198,219,195,215,244,177"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="270,226,339,252"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="271,177,291,211,287,214,266,180"/>
+<area shape="poly" id="edge15_Node000009_Node000002" title=" " alt="" coords="357,107,295,146,292,142,354,103"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="404,103,433,122,447,136,457,152,461,169,458,186,441,216,437,214,453,184,456,169,452,154,443,139,430,127,401,107"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="404,103,441,123,477,151,500,181,517,211,512,214,496,184,473,155,438,127,402,107"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="407,103,454,123,506,150,552,182,592,214,588,218,549,187,503,155,452,128,405,108"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="318,108,247,127,172,155,115,186,67,219,64,215,112,182,170,150,245,122,317,103"/>
+<area shape="poly" id="edge14_Node000009_Node000007" title=" " alt="" coords="299,103,241,120,214,135,192,154,177,181,172,211,167,210,172,180,187,151,211,131,239,115,297,98"/>
+<area shape="poly" id="edge16_Node000009_Node000008" title=" " alt="" coords="372,106,337,180,320,214,315,211,332,177,367,104"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="397,153,443,178"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="385,103,407,138,402,141,380,106"/>
+</map>

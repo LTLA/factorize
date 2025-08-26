@@ -1,0 +1,8 @@
+<map id="factorize/create_factor.hpp" name="factorize/create_factor.hpp">
+<area shape="rect" id="Node000001" title="Create a factor from a categorical variable." alt="" coords="42,5,216,31"/>
+<area shape="rect" id="Node000002" href="$combine__to__factor_8hpp.html" title="Combine categorical variables into a single factor." alt="" coords="5,79,147,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,45,91,80,87,77,111,42"/>
+<area shape="rect" id="Node000003" href="$factorize_8hpp.html" title="Create factors from categorical variables." alt="" coords="56,168,203,193"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="147,44,161,78,164,99,161,120,152,147,140,168,135,166,147,144,156,119,159,99,156,80,142,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,131,123,166,119,169,96,134"/>
+</map>
